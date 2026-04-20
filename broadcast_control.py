@@ -11,8 +11,8 @@ class BroadcastControl(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
 
     BROADCAST_MAC = "ff:ff:ff:ff:ff:ff"
-    BROADCAST_THRESHOLD = 10   #max allowed broadcasts
-    TIME_WINDOW = 5           #time limit (seconds)
+    BROADCAST_THRESHOLD = 2   #max allowed broadcasts
+    TIME_WINDOW = 10           #time limit (seconds)
 
     def __init__(self, *args, **kwargs):
         super(BroadcastControl, self).__init__(*args, **kwargs)
