@@ -14,7 +14,7 @@
 - `--topo single,3`: one switch (single), 3 hosts
 - `--controller=remote`: external controller (ryu)
 - `--switch ovsk`: use Open vSwitch kernel switch
-- `protocols=OpenFlow13`: switch uses OpenFlow 1.3
+- `protocols=OpenFlow13`: switch uses OpenFlow 1.3 (the switch and the controller use the same OpenFlow protocol version)
 #### Controller
 Activate virtual environment and run Ryu controller:
 ```
